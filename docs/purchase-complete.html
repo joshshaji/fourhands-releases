@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twin Pro is yours</title>
+<meta name="description" content="Thanks for getting Twin Pro.">
+<meta property="og:title" content="Twin Pro is yours">
+<meta property="og:description" content="Thanks for getting Twin Pro.">
+<meta property="og:image" content="https://joshshaji.github.io/twin-releases/icon.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#FBFBFA}
+a{color:#0B5BD3}a:hover{color:#0846A6}
+</style>
+
+</head>
+<body>
+<div style="width: 100%; min-height: 100vh; box-sizing: border-box; font-family: Inter, system-ui, sans-serif; color: #111418; background: #FBFBFA; display: flex; flex-direction: column">
+<header style="border-bottom: 1px solid #E5E8EC">
+<div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; gap: 10px; font-family: 'Space Grotesk', Inter, sans-serif; font-weight: 700; font-size: 21px">
+<svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3" width="13" height="10" rx="2.5" fill="none" stroke="#0B5BD3" stroke-width="1.8" stroke-dasharray="2.4 2"></rect><rect x="3" y="9" width="13" height="10" rx="2.5" fill="#0B5BD3"></rect></svg>
+Twin
+</div>
+</header>
+<main style="flex: 1 1 auto; display: flex; align-items: center; justify-content: center; padding: 64px 24px">
+<div style="width: 100%; max-width: 560px; padding: 44px 40px; border-radius: 20px; background: #FFFFFF; border: 1px solid #E5E8EC; display: flex; flex-direction: column; align-items: center; gap: 18px; text-align: center; box-sizing: border-box">
+<svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#0B5BD3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M8 12.5l2.7 2.7L16.5 9"></path></svg>
+<h1 style="margin: 0; font-family: 'Space Grotesk', Inter, sans-serif; font-size: 36px; line-height: 1.1; letter-spacing: -0.01em">Twin Pro is yours</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.55; color: #3D4652">Thank you. Twin notices within a few seconds and unlocks on its own; your agents can use their twins right away.</p>
+<a href="twin://purchased" style="display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 28px; border-radius: 12px; background: #0B5BD3; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px">Return to Twin</a>
+<p style="margin: 0; font-size: 14px; line-height: 1.5; color: #5B6470">Your receipt is in your email. To change or cancel a subscription later, open Twin › Account › Manage subscription.</p>
+</div>
+</main>
+<footer style="border-top: 1px solid #E5E8EC">
+<div style="max-width: 1180px; margin: 0 auto; padding: 24px; font-size: 14px; color: #5B6470">Questions? Reply to your receipt email, or <a href="https://github.com/joshshaji/twin-releases/issues">ask on GitHub</a>.</div>
+</footer>
+</div>
+<script>
+// Bring Twin forward once; it also notices the purchase on its own within seconds.
+setTimeout(function () { try { window.location.href = "twin://purchased"; } catch (e) {} }, 800);
+</script>
+</body>
+</html>
